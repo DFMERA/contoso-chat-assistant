@@ -93,7 +93,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Test Assistants API
 
 1. Test the function ```ContosoChatAssistant``` as in this example (replace {port} with your local port):
-   ```json
+   ```
    POST http://localhost:{port}/api/ContosoChatAssistant
    Content-Type: application/json
 
