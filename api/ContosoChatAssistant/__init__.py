@@ -86,7 +86,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
 
 def get_customer_info(id: str) -> str:
-    get_customer_api = "http://localhost:7071/api/GetCustomerInfo"
+    get_customer_api = os.getenv("CUSTOMER_INFO_API")
 
     # ?id=1&partitionKeyValue=1
     response = requests.get(f"{get_customer_api}?id={id}&partitionKeyValue={id}")
