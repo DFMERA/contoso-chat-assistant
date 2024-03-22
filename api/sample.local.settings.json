@@ -1,0 +1,14 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "AzureWebJobsStorage": "",
+      "FUNCTIONS_WORKER_RUNTIME": "python",
+      "CosmosDB": "<YOUR COSMOSDB CONNECTION STRING>",
+      "OPENAI_ASSISTANT_ID": "<YOUR OPENAI_ASSISTANT_ID>",
+      "AZURE_OPENAI_ENDPOINT": "<YOUR AZURE_OPENAI_ENDPOINT>",
+      "AZURE_OPENAI_API_KEY": "<YOUR AZURE_OPENAI_API_KEY>",
+      "OPENAI_API_VERSION": "2024-02-15-preview",
+      "OPENAI_GPT_DEPLOYMENT": "<YOUR OPENAI_GPT_DEPLOYMENT>",
+      "CUSTOMER_INFO_API": "<YOUR GetCustomerInfo FUNCTION URL>"
+    }
+}

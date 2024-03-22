@@ -1,0 +1,19 @@
+### Prueba sin historial
+POST http://localhost:{port}/api/ContosoChatAssistant
+Content-Type: application/json
+
+{
+    "customerId": 1,
+    "question": "Can you remember me my last orders?",
+    "chat_history": [""]
+}
+
+### Prueba con historial
+POST http://localhost:{port}/api/ContosoChatAssistant
+Content-Type: application/json
+
+{
+    "customerId": 1,
+    "question": "Is my tent good enough for camping in cold weather?",
+    "chat_history": ["thread_xxxxxxxxxxxx"]
+}

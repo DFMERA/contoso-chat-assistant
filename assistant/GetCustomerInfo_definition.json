@@ -1,0 +1,16 @@
+{
+  "name": "get_customer_info",
+  "description": "Get Customer Information like full name and previous orders.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer",
+        "description": "The customer id"
+      }
+    },
+    "required": [
+      "id"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+.venv
+.vscode
+.env
+
+# Mac os files
+.DS_Store
